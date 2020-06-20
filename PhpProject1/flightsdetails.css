@@ -1,0 +1,69 @@
+#background
+{
+    overflow-x:hidden;
+    position: relative;
+    background-image: url(ss.jpg);
+    
+}
+
+
+h2
+{ 
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 150px;
+    color: white;
+    
+}
+
+
+form
+{
+  width: 300px;
+  margin:0 auto;
+}
+input,select,#finish
+{
+    font-family: arial;
+    font-size: 16px;
+    color:#222;
+    border-radius: 4px;
+    margin-bottom: 10px;
+   height: 25px;
+   
+   border: 2px ;
+   
+}
+
+form select,#in3,#in4
+{
+    width: 195px;
+    height: 25px;
+    
+}
+#finish
+{
+    width: 195px;
+    height: 25px;
+    color: white;
+   background-color: #222;
+   box-shadow:10 50px 50px 0 rgba(0, 0, 0, 0.28);
+
+}
+#error
+{
+    padding-top: 20px;
+    background-color: rgb(250, 198, 198);
+    color: red;
+    border-radius: 4px;
+    border: 2px solid red;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 25px;
+    max-width: 250px;
+   
+    /*background-color: brown;*/
+}
+#star
+{
+    color: aliceblue;
+}
